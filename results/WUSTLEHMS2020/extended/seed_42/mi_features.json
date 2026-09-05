@@ -1,0 +1,30 @@
+{
+  "selected_features": [
+    "DstJitter",
+    "DIntPkt",
+    "SrcLoad",
+    "Dur",
+    "Rate",
+    "SIntPkt",
+    "DstLoad",
+    "Load",
+    "SrcJitter",
+    "Heart_rate",
+    "TotPkts",
+    "Resp_Rate",
+    "Pulse_Rate",
+    "DstBytes",
+    "SpO2",
+    "DIA",
+    "SrcBytes",
+    "Temp",
+    "pSrcLoss",
+    "TotBytes",
+    "SrcGap",
+    "ST",
+    "pLoss",
+    "Trans",
+    "SYS"
+  ],
+  "n": 25
+}

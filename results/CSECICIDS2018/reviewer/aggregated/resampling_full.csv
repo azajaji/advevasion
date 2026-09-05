@@ -1,0 +1,16 @@
+dataset,oversample,applicable,note,seed
+CSECICIDS2018,smote,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,42
+CSECICIDS2018,smotenc,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,42
+CSECICIDS2018,none,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,42
+CSECICIDS2018,smote,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,7
+CSECICIDS2018,smotenc,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,7
+CSECICIDS2018,none,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,7
+CSECICIDS2018,smote,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,123
+CSECICIDS2018,smotenc,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,123
+CSECICIDS2018,none,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,123
+CSECICIDS2018,smote,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,31
+CSECICIDS2018,smotenc,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,31
+CSECICIDS2018,none,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,31
+CSECICIDS2018,smote,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,99
+CSECICIDS2018,smotenc,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,99
+CSECICIDS2018,none,False,minority-to-majority ratio above the 0.75 threshold; no oversampling is applied under any scheme,99

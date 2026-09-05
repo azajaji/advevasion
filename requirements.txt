@@ -1,0 +1,11 @@
+# Versions as reported in the paper (Section III-H).
+numpy
+pandas
+scipy
+scikit-learn==1.8.*
+imbalanced-learn
+matplotlib
+torch==2.11.*
+adversarial-robustness-toolbox==1.20.*
+xgboost
+lightgbm

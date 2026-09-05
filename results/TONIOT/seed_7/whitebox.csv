@@ -1,0 +1,4 @@
+accuracy,precision,recall,f1,fpr,fnr,model,attack,asr,elapsed_s,n_samples,n_eligible,median_queries_success,query_budget_exhausted,numerical_stagnation
+0.01,0.0,0.0,0.0,0.95,1.0,RF,HopSkipJump_whitebox,0.9949748743718593,47.543174028396606,200,199,561.0,0,0
+0.075,0.2641509433962264,0.0875,0.13145539906103287,0.975,0.9125,SVM,HopSkipJump_whitebox,1.0,1.5363445281982422,200,185,557.0,0,0
+0.08,0.2777777777777778,0.09375,0.14018691588785046,0.975,0.90625,LR,HopSkipJump_whitebox,1.0,1.5080101490020752,200,184,556.0,0,0

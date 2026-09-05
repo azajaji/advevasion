@@ -1,0 +1,33 @@
+\begin{tabular}{l l c c c}
+\toprule
+\textbf{Factor} & \textbf{Setting} & \textbf{Factor-specific value} & \textbf{Clean acc.} & \textbf{Adv.\ acc.} \\
+\midrule
+Feature selector & RF importance (as submitted) & 18 & 0.933\,$\pm$\,0.006 & 0.322\,$\pm$\,0.037 \\
+ & Mutual information & 25 & 0.937\,$\pm$\,0.002 & 0.371\,$\pm$\,0.019 \\
+ & No selection & 45 & 0.940\,$\pm$\,0.003 & 0.307\,$\pm$\,0.030 \\
+\midrule
+Oversampling & none (TON\_IoT) & 0.029 / 0.571 & 0.953\,$\pm$\,0.001 & 0.444\,$\pm$\,0.128 \\
+ & smote (TON\_IoT) & 0.059 / 0.635 & 0.943\,$\pm$\,0.001 & 0.387\,$\pm$\,0.144 \\
+ & smotenc (TON\_IoT) & 0.059 / 0.658 & 0.943\,$\pm$\,0.001 & 0.378\,$\pm$\,0.127 \\
+ & none (WUSTL-EHMS-2020) & 0.527 / 0.570 & 0.931\,$\pm$\,0.004 & 0.393\,$\pm$\,0.015 \\
+ & smote (WUSTL-EHMS-2020) & 0.389 / 0.677 & 0.888\,$\pm$\,0.006 & 0.302\,$\pm$\,0.008 \\
+ & smotenc (WUSTL-EHMS-2020) & 0.389 / 0.677 & 0.888\,$\pm$\,0.006 & 0.302\,$\pm$\,0.008 \\
+\midrule
+Surrogate capacity & submitted & [32, 12] & 0.941\,$\pm$\,0.006 & 0.361\,$\pm$\,0.068 \\
+ & longer & [32, 12] & 0.946\,$\pm$\,0.006 & 0.400\,$\pm$\,0.070 \\
+ & wider & [128, 64] & 0.935\,$\pm$\,0.009 & 0.336\,$\pm$\,0.054 \\
+ & wider\_longer & [128, 64] & 0.953\,$\pm$\,0.007 & 0.364\,$\pm$\,0.079 \\
+ & deep\_long & [256, 128, 64] & 0.953\,$\pm$\,0.003 & 0.440\,$\pm$\,0.069 \\
+\midrule
+Hyperparameter tuning & as\_submitted & -- & 0.930\,$\pm$\,0.006 & 0.426\,$\pm$\,0.035 \\
+ & tuned & -- & 0.933\,$\pm$\,0.005 & 0.461\,$\pm$\,0.045 \\
+\midrule
+Data split (CSE-CIC only) & Random stratified (as submitted) & -- & 0.968\,$\pm$\,0.012 & 0.277\,$\pm$\,0.065 \\
+ & Chronological & -- & 0.733\,$\pm$\,0.038 & 0.381\,$\pm$\,0.125 \\
+\midrule
+HSJ query budget & (5, 100) & -- & -- & 0.144\,$\pm$\,0.013 \\
+ & (10, 200) & -- & -- & 0.144\,$\pm$\,0.013 \\
+ & (20, 500) & -- & -- & 0.144\,$\pm$\,0.013 \\
+ & (40, 1000) & -- & -- & 0.144\,$\pm$\,0.012 \\
+\bottomrule
+\end{tabular}

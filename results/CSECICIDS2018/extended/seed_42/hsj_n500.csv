@@ -1,0 +1,4 @@
+model,attack,n_samples,n_eligible,asr,asr_ci_lo,asr_ci_hi,mean_l2_perturbation,median_queries_success,query_budget_exhausted,numerical_stagnation,elapsed_s
+RF,HopSkipJump_whitebox,500,499,0.8797595190380761,0.8482831089194971,0.9054335812055823,1.2704237699508667,566.0,0,0,151.4470179080963
+SVM,HopSkipJump_whitebox,500,457,1.0,0.9916642508021641,1.0,0.33646532893180847,556.0,0,0,3.6401009559631348
+LR,HopSkipJump_whitebox,500,456,1.0,0.9916461233605471,1.0,0.3553861379623413,556.5,0,0,3.7533106803894043

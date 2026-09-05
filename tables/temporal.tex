@@ -1,0 +1,12 @@
+\begin{tabular}{l c c c c c}
+\toprule
+& \multicolumn{2}{c}{\textbf{Clean accuracy}} & \multicolumn{2}{c}{\textbf{Adversarial accuracy}} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\textbf{Model} & \textbf{Random} & \textbf{Chronological} & \textbf{Random} & \textbf{Chronological} & $\Delta$ \textbf{clean} \\
+\midrule
+LR & 0.942\,$\pm$\,0.029 & 0.690\,$\pm$\,0.013 & 0.249\,$\pm$\,0.171 & 0.362\,$\pm$\,0.172 & -0.252 \\
+SVM & 0.932\,$\pm$\,0.026 & 0.688\,$\pm$\,0.008 & 0.220\,$\pm$\,0.123 & 0.269\,$\pm$\,0.219 & -0.244 \\
+RF & 1.000\,$\pm$\,0.000 & 0.724\,$\pm$\,0.000 & 0.534\,$\pm$\,0.030 & 0.581\,$\pm$\,0.020 & -0.276 \\
+MLP & 0.998\,$\pm$\,0.001 & 0.829\,$\pm$\,0.149 & 0.104\,$\pm$\,0.045 & 0.310\,$\pm$\,0.133 & -0.169 \\
+\bottomrule
+\end{tabular}

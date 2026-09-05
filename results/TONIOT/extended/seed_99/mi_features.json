@@ -1,0 +1,20 @@
+{
+  "selected_features": [
+    "src_ip_bytes",
+    "dst_port",
+    "src_port",
+    "dst_ip_bytes",
+    "conn_state",
+    "src_pkts",
+    "src_bytes",
+    "proto",
+    "duration",
+    "dns_qtype",
+    "dst_bytes",
+    "dst_pkts",
+    "dns_qclass",
+    "dns_rcode",
+    "missed_bytes"
+  ],
+  "n": 15
+}
