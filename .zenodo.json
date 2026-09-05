@@ -1,0 +1,23 @@
+{
+  "title": "AdvEvasion: reproducibility archive for Feature-Space Adversarial Robustness Evaluation of Lightweight ML-Based Intrusion Detection for IoT and Healthcare-Sensing Networks",
+  "description": "<p>Experiment pipeline, per-seed results, and generated result tables for the IEEE Access (2026) article of the same name. The study is an evaluation-protocol contribution: one shared representation, one attack grid, and one cost accounting applied across four lightweight classifiers and two supplementary gradient-boosted targets on CSE-CIC-IDS2018 (Improved release), TON_IoT, and WUSTL-EHMS-2020.</p><p>Contains the experiment scripts, seeded HopSkipJump wrappers, cross-process reproducibility tests, per-seed CSV metrics and JSON run records for five seeds, and the 19 LaTeX tables printed in the paper. The three benchmarks are public and are not redistributed here; no raw flow records or biometric values are included.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    { "name": "AlAjaji, Abdulaziz", "affiliation": "King Saud University", "orcid": "0000-0001-6725-4054" },
+    { "name": "Alharbi, Rawan", "affiliation": "King Saud University" },
+    { "name": "Hassan, Mohammad Mehedi", "affiliation": "King Saud University" },
+    { "name": "Almukaynizi, Mohammed", "affiliation": "King Saud University" }
+  ],
+  "keywords": [
+    "adversarial machine learning",
+    "adversarial robustness",
+    "network intrusion detection",
+    "attack transferability",
+    "healthcare IoT",
+    "Internet of Medical Things",
+    "evasion attacks",
+    "edge AI security"
+  ]
+}
